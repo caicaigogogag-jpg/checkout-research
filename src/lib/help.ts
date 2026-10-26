@@ -25,7 +25,7 @@ export function findIntent(text: string): Intent {
 export function stepMessage(state: Checkout): string {
   return ({
     idle:'請點螢幕中間開始結帳。',
-    welcome:'您好！我是您的結帳小幫手小智，今天讓我陪您一起結帳吧！請點一下螢幕中間開始喔！',
+    welcome:'您好！請點一下螢幕中間開始結帳。',
     'tutorial-choice':'請問您需不需要先看一遍完整的教學影片呢？點左邊可以看影片，點右邊可以直接開始結帳喔！',
     scan:'太好了！我們直接開始結帳吧！請確認購買的商品都有感應到喔！請把商品卡靠近感應區，聽到嗶一聲就可以了。如果有發生什麼問題，可以問我喔。',
     review:'請您確認螢幕上的商品和總金額對不對喔！如果數量金額都正確，請點綠色的「是」。',
